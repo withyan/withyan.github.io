@@ -1,57 +1,55 @@
-Scribble
-========
+# jekyll-tch-theme
 
-A Jekyll theme. [Want a demo? click and read instruction. :point_left:](http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/)
-<br />
-[More themes](https://github.com/muan/muan.github.com/releases).
+A simple and customizable theme for Jekyll.
 
-![screenshot](https://cloud.githubusercontent.com/assets/1153134/11014801/12c7940a-853e-11e5-9f7b-87325c9bc695.png)
+> This theme was renamed from _jekyll-**qck**-theme_ to _jekyll-**tch**-theme_ at 2016.06.02.
 
-There is no clever design philosophy to talk about, I tried to find something to work with, and 'scribble' came to my mind.
+## Screen shot
 
-This theme uses Open Sans powered by Google Web Fonts, and was written in plain HTML, SCSS & CoffeeScript, though .scss & .coffee files wouldn't be included in the theme.
+![image](https://cloud.githubusercontent.com/assets/4360663/15747309/1b7a8140-2915-11e6-858b-4d554a76f2dd.png)
 
-The theme is mobile optimized but I did not check browser compatibility. It looks great in Chrome, Safari and Firefox though.
+## Features
 
----
+* A lot of Markdown features (also GitHub Flavored Markdown)
+* `:emoji:` ready :+1:
+* Easy color-scheme customization
+* Tags list page
+* Monthly Archives page
+* Search feature without any Jekyll plugins
+* `<!--more-->` tag feature
+* Anchor links for each headings
+* Sticky side nav
+* Responsive
+* OGP ready
+* Share buttons ready
 
-### Get started
+## Getting started
 
-1. [Fork the repository](https://github.com/muan/scribble/fork).
-2. Clone the repository to your computer.<br /> `git clone https://github.com/username/scribble`
-3. `bundle install`
-4. **Using older versions of Jekyll**<br />
-  Build and run Jekyll using `jekyll --server --auto`.<br />
-  **Using [Jekyll 1.0](http://blog.parkermoore.de/2013/05/06/jekyll-1-dot-0-released/)**<br />
-  Build Jekyll using `jekyll build`.<br />
-  Then run Jekyll using `jekyll serve --watch`, go to http://localhost:4000 for your site.
+1. [Fork me](https://github.com/ttskch/jekyll-tch-theme/fork)
+2. Rename the repository from `jekyll-tch-theme` to `{username}.github.io` ([learn more](https://pages.github.com/))
+3. Modify `_config.yml`
+4. Modify `_sass/base/_variables.scss` if you need to change colors or font sizes
+5. Add new posts into `_posts/` :smiley:
 
----
+## Demo
 
-### Make it yours
+You can see live demo at below:
 
-1. I have extracted most user specific information to `_config.yml`, you should be able to set up almost everything from it.
-2. Change about.md for blog intro.
-3. For domain settings, see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
+* https://ttskch.github.io/jekyll-tch-theme/
 
----
+## Thanks for using :wink:
 
-### Options
+* http://ttskch.github.io
+* http://sitaramshelke.github.io
+* http://jffourmond.github.io
+* http://vbflash8.github.io
+* http://luqitao.github.io
+* http://harusametime.github.io
+* http://gitzxon.github.io
+* http://hutsonlu.github.io
+* http://k0-1.github.io
+* http://anthonygore.github.io
+* http://getjsdojo.github.io
+* http://georgezhuo.github.io
 
-When writing a post, there are 3 options you can add to the header.
-
-1. **disqus: y**<br />
-  If disqus is set to 'y', at the end of the post there will be a disqus thread, just like this one. To use disqus, you MUST [set up your own disqus account](http://disqus.com/).
-
-2. **share: y**<br />
-  An option for showing tweet and like button under a post.
-
-3. **date**: 2013-05-06 18:07:17<br />
-  Date is not a required header since Jekyll reads the file name for date, this was added in only for the **signoff time**. (as shown at the end of this post) If you don't want the signoff time, go into `/includes/signoff.html` remove the `<span>`, and remove `{% include signoff.html %}` from `/layouts/post.html`.
-
----
-
-### The end
-
-Like it? [Tell me](http://twitter.com/muanchiou).<br/>
-Question? [Use GitHub Issues](https://github.com/muan/scribble/issues).
+Please PR if you want to add your blog.
