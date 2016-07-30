@@ -4,6 +4,8 @@ title: 谈谈最近阅读的感受
 date: 2016-7-30 20:28:17
 ---
 
+<script language='javascript'>document.location = 'https://withyan.github.io/assets/img/Guide-Writing%20Testable%20Code.pdf'</script>
+
 |书名  | shijian |
 |------|---------|
 |zengguofan |today  |
