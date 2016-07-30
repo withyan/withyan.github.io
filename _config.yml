@@ -4,7 +4,7 @@
 # url: http://localhost:4000
 # baseurl: ""
 url: http://withyan.github.io
-baseurl: /
+baseurl: withyan.github.io/
 title: withyan
 description: Some descriptions of yourself.
 avatar: /assets/img/ogp.png
