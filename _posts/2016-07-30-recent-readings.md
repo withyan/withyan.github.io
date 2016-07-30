@@ -11,4 +11,4 @@ date: 2016-7-30 20:28:17
 
 ## How to make reading notes
 
-[!make-reading-notes](/assets/img/how-to-make-notes.jpg)
+![make-reading-notes](/assets/img/how-to-make-notes.jpg)
