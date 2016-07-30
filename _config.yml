@@ -3,7 +3,7 @@
 #
 # url: http://localhost:4000
 # baseurl: ""
-url: http://withyan.github.io
+url: http://
 baseurl: withyan.github.io/
 title: withyan
 description: Some descriptions of yourself.
